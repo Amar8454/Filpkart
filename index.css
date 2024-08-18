@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #e5dede;
+}
+
+/** navbar **/
+
+.navbar{
+	height: 100px;
+	background: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.logo{
+	background-image: url('images/flipkart logo.jpeg');
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+}
+.icon{
+	background: #f8f3f3;
+	height: 40px;
+	width: auto;
+}
+.searchbar{
+	font-size: 17px;
+	background: #f8f3f3;
+	height: 40px;
+	width: auto;
+	border-radius: 5px;
+	border: none;
+	border-left: 2px;
+	border-right: 2px;
+	display: flex;
+	align-items: center;
+}
+.fa-solid{
+	margin-left: 10px;
+	display: flex;
+	background-color: #f8f3f3;
+	height: auto;
+	width: auto;
+	align-items: center;
+}
+.fa-light{
+	margin-left: 10px;
+	display: flex;
+	background-color: #f8f3f3;
+	height: auto;
+	width: auto;
+	align-items: center;
+
+}
+
+.search{
+	margin-left: 10px;
+	font-size: 14px;
+	background: #f8f3f3;
+	border: none;
+	width: 300px;
+	height: 40px;
+	
+}
+.login{
+	background: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 120px;
+}
+span{
+	background: white;
+	margin-left: 10px;
+}
+span:hover{
+	color: white;
+	background-color: blue;
+}
+.login:hover{
+	border-radius: 5px;
+	background-color: blue;
+}
+.content{
+	margin-left: 130px;
+	margin-top: 20px;
+	background: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 120px;
+	width: 840px;
+}
+.boxe p{
+	background: white;
+}
+.box{
+	background: white;
+	height: 70px;
+	width: 70px;
+	background-size: cover;
+}
+
+.content2{
+	margin-left: 130px;
+	margin-top: 20px;
+	height: 140px;
+	width: 840px;
+	background-image: url('images/box img.webp');
+	background-size: cover;
+}
+.head{
+	display: flex;
+	align-items: start;
+	margin-top: 20px;
+	margin-left: 130px;
+	height: 30px;
+	width: 840px;
+	background: white;
+	font-size: 25px;
+}
+.content3{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 130px;
+	height: 280px;
+	background: white;
+	width: 840px;
+}
+.Gadget{
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	border: 0.1px solid ;
+}
+.sonic p{
+	font-weight: bold;
+	background: white;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head2{
+	display: flex;
+	align-items: start;
+	margin-top: 20px;
+	margin-left: 130px;
+	height: 30px;
+	width: 840px;
+	background: white;
+	font-size: 25px;
+}
+.content4{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 130px;
+	height: 280px;
+	background: white;
+	width: 840px;
+}
+.head3{
+	display: flex;
+	align-items: start;
+	margin-top: 20px;
+	margin-left: 130px;
+	height: 30px;
+	width: 840px;
+	background: white;
+	font-size: 25px;
+}
+.content5{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 130px;
+	height: 280px;
+	background: white;
+	width: 840px;
+}
+.sonic a{
+	font-weight: bold;
+	color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+.content6{
+	color: #565656;
+}
+.head4{
+	font-weight: bold;
+	color: #565656;
+	font-size: 20px;
+	margin-top: 20px;
+	height: 35px;
+	background:#e5dede;
+}
+.page{
+	margin-top: 10px;
+	font-size: 13px;
+}
+.page a{
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #565656;
+	font-size: 14px;
+}
+.footer{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	height: 200px;
+	background-color: #292727;
+}
+.div a{
+	color: #565656;
+	background:  #292727;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+.div{
+	margin-top: 30px;
+	height: 100px;
+	background: #292727 ;
+}
+.div p{
+	font-size: 13px;
+	margin-top: 5px;
+	color: white;
+	background:  #292727;
+}
+.footer2{
+	display: flex;
+	justify-content: space-evenly;
+	height: 200px;
+	background-color: #292727;
+}
+.footer3{
+	border-top:1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 50px;
+	background-color: #292727;
+
+}
+.div2{
+	color: white;
+	background:#292727 ;
+}
